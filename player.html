@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Watch full movies online for free on Dashflix. Stream high-quality movies across all genres including action, drama, comedy, horror, and anime. No signup required.">
+  <meta name="keywords" content="Watch Free Movies, Stream Movies Online, Full Movies Free, Dashflix, Action Movies, Comedy, Horror, Drama, Anime, Online Movie Player, Free Streaming, Watch Without Sign Up, Movie Watch Online, HD Movies, Free Movie Site">
+  <meta name="robots" content="index, follow">
+  <meta property="og:description" content="Stream your favorite full-length movies online for free. No subscription needed. Enjoy HD quality movies anytime on Dashflix." />
+  <meta property="og:url" content="https://dashflix.top/player" />
+  <meta property="og:image" content="https://i.postimg.cc/YCWDLrdF/th.webp" />
+  <meta property="og:image:alt" content="Dashflix - Stream Full Movies Free" />
+  <meta property="og:type" content="video.movie" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:description" content="Enjoy streaming free full-length movies in high quality. Watch now without registration on Dashflix." />
+  <meta name="twitter:image" content="https://i.postimg.cc/YCWDLrdF/th.webp" />
+  <meta name="twitter:image:alt" content="Dashflix - Stream Full Movies Free" />
+  <link rel="canonical" href="https://dashflix.top/player" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+  <link rel="stylesheet" href="player.css">
+  <link rel="stylesheet" href="play.css">
+  <link rel="stylesheet" href="bottom-search.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=64b0f5079f35fb00121494d9&product=sticky-share-buttons" async></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5412699736062085"
+       crossorigin="anonymous"></script>
+  <title>Dashflix - Watch Free Full Movies Online</title>
+</head>
+<script>
+  (function () {
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get("id");
+    const blockedIds = ["969492", "634649", "957452", "1163258", "299534"];
+
+    if (id && blockedIds.includes(id)) {
+      window.location.replace("https://dashflix.top/movies");
+    }
+  })();
+</script>
+<body>
+<div class="movie-container">
+  <div class="theme-toggle">
+    <input type="checkbox" id="theme-switch">
+    <label for="theme-switch" class="switch">
+      <span class="slider">
+        <i class="fa-solid fa-sun icon"></i>
+      </span>
+    </label>
+  </div>
+  <div class="info-banner">
+    <i class="fas fa-info-circle"></i> Having trouble? Try switching to a different server.
+</div>
+<select id="video-source" onchange="changeSource()">
+<option value="">Select Server</option>
+</select>
+<div class="video-container"><iframe id="video-player" src="" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+<div class="sharethis-inline-share-buttons"></div>
+<div class="sharethis-inline-reaction-buttons"></div>
+<div class="movie-details">
+<img id="movie-poster" src="" alt="Movie Poster">
+<div class="movie-info">
+<h2 id="movie-title-info">Loading...</h2>
+<div class="watchlist-buttons">
+<button id="watchlist-btn" class="watchlist-btn"><i class="fas fa-plus"></i></button>
+<a href="/watchlist" id="watchlist-icon-btn" class="watchlist-icon-btn"><i class="fas fa-bookmark"></i></a>
+</div>
+<button class="play-trailer-btn" id="play-trailer-btn">Watch Trailer</button>
+<p><strong>Release Year:</strong> <span id="release-year">Loading...</span></p>
+<p><strong>Genres:</strong> <span id="genres">Loading...</span></p>
+<p><strong>Rating:</strong> <span id="rating" class="rating">Loading...</span></p>
+<p><strong>Overview:</strong></p>
+<p id="movie-overview">Loading...</p>
+<p><strong>Director:</strong> <span id="director">Loading...</span></p>
+</div>
+</div>
+<div class="trailer-modal" id="trailer-modal">
+  <div class="trailer-content">
+    <button class="blose-btn" id="close-trailer">×</button>
+    <iframe id="trailer-video" src="" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="related-movies">
+  <h2>Related Movies</h2>
+    <div id="related-movies-list" class="movies-list">
+    </div>
+</div>
+</div>
+
+    <iframe
+      id="JotFormIFrame-252011597010444"
+      title="Feedback Form"
+      onload="window.parent.scrollTo(0,0)"
+      allowtransparency="true"
+      allow="geolocation; microphone; camera; fullscreen; payment"
+      src="https://form.jotform.com/252011597010444"
+      frameborder="0"
+      style="min-width:100%;max-width:100%;height:539px;border:none;"
+      scrolling="no"
+    >
+    </iframe>
+    <script src='https://cdn.jotfor.ms/s/umd/latest/for-form-embed-handler.js'></script>
+    <script>window.jotformEmbedHandler("iframe[id='JotFormIFrame-252011597010444']", "https://form.jotform.com/")</script>
+    
+<nav class="bottom-nav">
+<a href="/index" class="nav-item"><i class="fas fa-home"></i> Home</a>
+<a href="#" class="nav-item" id="navSearchToggle"><i class="fas fa-search"></i> Search</a>
+<a href="/movies" class="nav-item"><i class="fas fa-film"></i> Movies</a>
+<a href="/shows" class="nav-item"><i class="fas fa-tv"></i> Shows</a>
+<a href="/requested" class="nav-item"><i class="fas fa-list"></i> Requested</a>
+</nav>
+<div class="nav-search-container" id="navSearchContainer">
+<form id="navSearchForm">
+<input type="text" id="navSearchInput" placeholder="Search movies or shows..." />
+</form>
+<div id="navSearchResults">
+<p>No results found</p>
+</div>
+</div>
+<div id="navSearchOverlay"></div>
+<script src="bottom-search.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const switchInput = document.getElementById("theme-switch");
+    const icon = document.querySelector(".theme-toggle .icon");
+    const body = document.body;
+
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "light") {
+        body.classList.add("light-theme");
+        switchInput.checked = true;
+        icon.classList.replace("fa-sun", "fa-moon");
+    }
+
+    switchInput.addEventListener("change", () => {
+        const isLight = switchInput.checked;
+        body.classList.toggle("light-theme", isLight);
+        icon.classList.replace(isLight ? "fa-sun" : "fa-moon", isLight ? "fa-moon" : "fa-sun");
+        localStorage.setItem("theme", isLight ? "light" : "dark");
+    });
+});
+</script>
+<script src="player.js"></script>
+<script src="play.js"></script>
+<script src="p.js"></script>
+<script src="related.js"></script>
+</body>
+</html>
